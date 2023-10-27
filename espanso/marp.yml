@@ -8,10 +8,10 @@ matches:
       author: JRK
       paginate: true
       theme: santeacademie
+      class: invert
       header: '![height:30px](https://sante.ac/logo-white-label)'
       footer: '{{form.title}}'
       ---
-      <!-- class: invert -->
       <!-- _paginate: skip -->
       <!-- _footer: '' -->
 

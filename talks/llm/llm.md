@@ -4,10 +4,10 @@ title: 'LLM Like a boss'
 author: JRK
 paginate: true
 theme: santeacademie
+class: invert
 header: '![height:30px](https://sante.ac/logo-white-label)'
 footer: '**LLM Like a boss**'
 ---
-<!-- class: invert -->
 <!-- _paginate: skip -->
 <!-- _footer: '' -->
 
@@ -17,43 +17,20 @@ footer: '**LLM Like a boss**'
 > Moi-même
 
 ---
-
-# Bullet list
-
-- One
-- Two
-- Three
-
----
-### Fragmented list
-
-1 One
-* Two
-* Three
-
-
----
-
 # Install
+<!-- _class: amber -->
 
 ```bash
 pip3 install llm # or brew install llm
 ```
 
 ---
-
 # Configure
-## Configure key
-### Configure keyx
-#### Configure keyx
-##### Configure keyx
-###### Configure keyx
 ```bash
 llm keys set openai
 ```
 
 ---
-
 # Global usage
 ```bash
 llm 'Donne moi 10 noms de langages de programmation'
