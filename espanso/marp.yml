@@ -1,0 +1,38 @@
+matches:
+## start
+  - trigger: ">marp"
+    replace: |
+      ---
+      marp: true
+      title: '{{form.title}}'
+      author: JRK
+      paginate: true
+      theme: santeacademie
+      header: '![height:30px](https://sante.ac/logo-white-label)'
+      footer: '{{form.title}}'
+      ---
+      <!-- class: invert -->
+      <!-- _paginate: skip -->
+      <!-- _footer: '' -->
+
+      ![bg right:33%](https://images.pexels.com/photos/3009205/pexels-photo-3009205.jpeg)	
+      # {{form.title}}
+      ##### $!$Caption
+      > Quote
+
+      ---
+
+      # Titre1
+
+
+
+      ---
+
+    vars:
+    - name: form
+      type: form
+      params:
+        layout: |
+          Titre [[title]]
+
+## end
