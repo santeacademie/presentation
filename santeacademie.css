@@ -1,0 +1,99 @@
+/* @theme santeacademie */
+
+@import 'default';
+
+:root {
+  --dark-color: #10152e;
+  --black-color: #10152e;
+  --white-color: #ffffff;
+  --slate-color: #64748B;
+  --pink-color: #F94F92;
+  --amber-color: #D98E19;
+  --teal-color: #1FC1B9;
+  --footer-color: var(--slate-color);
+}
+
+img { 
+  background-color: transparent!important; 
+}
+
+section {
+  background-color: var(--dark-color);
+  background: linear-gradient(to top right, var(--dark-color) 40%, var(--pink-color) 190%);
+  font-family: monospace;
+  color: white;
+}
+
+section.flat.dark { background: var(--dark-color); }
+section.dark { background: linear-gradient(to top right, var(--dark-color) 40%, #15294e); }
+
+section.flat.pink { background: var(--pink-color); }
+section.pink { background: linear-gradient(to top right, var(--dark-color) 40%, var(--pink-color) 190%); }
+section.pink h1, section.pink h2, section.pink h3, section.pink h4 { color: var(--pink-color); }
+
+section.flat.amber { background: var(--amber-color); }
+section.amber { background: linear-gradient(to top right, var(--dark-color) 40%, var(--amber-color) 190%); }
+section.amber h1, section.amber h2, section.amber h3, section.amber h4 { color: var(--amber-color); }
+
+section.flat.teal { background: var(--teal-color); }
+section.teal { background: linear-gradient(to top right, var(--dark-color) 40%, var(--teal-color) 190%); }
+section.teal h1, section.teal h2, section.teal h3, section.teal h4 { color: var(--teal-color); }
+
+section.flat.slate { background: var(--slate-color); }
+section.slate { background: linear-gradient(to top right, var(--dark-color) 40%, var(--slate-color) 190%); }
+section.slate h1, section.slate h2, section.slate h3, section.slate h4 { color: var(--slate-color); }
+
+
+section::after {
+  color: var(--footer-color);
+  font-weight: bold;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--pink-color);
+  font-weight: bold;
+}
+
+h1 {
+  color: var(--pink-color);
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.7em;
+  color: var(--amber-color);
+}
+
+h3 {
+  font-size: 1.4em;
+  letter-spacing: 2px;
+  color: var(--teal-color);
+}
+
+h4 {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  color: var(--slate-color);
+}
+
+h5 {
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: var(--white-color);
+}
+
+h6 {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: var(--white-color);
+}
+
+pre {
+  font-size: 0.5rem;
+}
+
+footer {
+  color: var(--footer-color);
+}
+
