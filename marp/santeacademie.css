@@ -47,6 +47,11 @@ section.slate { background: linear-gradient(to top right, var(--dark-color) 40%,
 section.slate h1, section.slate h2, section.slate h3, section.slate h4 { color: var(--slate-color); }
 section.flat.slate h1, section.flat.slate h2, section.flat.slate h3, section.flat.slate h4 { color: white; }
 
+section.top {
+  justify-content: flex-start;
+  padding-top: 120px;
+}
+
 section.center {
   text-align: center;
 }
@@ -70,6 +75,7 @@ section.flat::after {
 section::after {
   color: var(--footer-color);
   font-weight: bold;
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
 
 

@@ -1,39 +1,43 @@
 ---
 marp: true
 title: 'LLM Like a boss'
-author: JRK
+author: jessym@santeacademie.com
 paginate: true
 theme: santeacademie
-class: invert
 header: '![height:30px](https://sante.ac/logo-white-label)'
 footer: '**LLM Like a boss**'
 ---
 <!-- _paginate: skip -->
 <!-- _footer: '' -->
+<!-- _class: invert top -->
 
 ![bg right:33%](https://images.pexels.com/photos/3009205/pexels-photo-3009205.jpeg)
+
 # LLM Like a boss
+
 ##### "Tout vient à point à qui a un LLM."
-> Moi-même
+
+> Daoui
 
 ---
 # Install
-<!-- _class: invert amber -->
+<!-- _class: invert top amber -->
 
 ```bash
 pip3 install llm # or brew install llm
 ```
 
----
+--- 
+
 # Configure
-<!-- _class: invert teal -->
+<!-- _class: invert top teal -->
 ```bash
 llm keys set openai
 ```
 
 ---
 # Global usage
-<!-- _class: invert slate -->
+<!-- _class: invert top slate -->
 ```bash
 llm 'Donne moi 10 noms de langages de programmation'
 ```
@@ -45,8 +49,8 @@ llm 'Donne moi 10 noms de langages de programmation' -m gpt4
 ```
 
 ---
-<!-- _class: invert -->
-## Shell usage
+<!-- _class: invert top pink -->
+# Shell usage
 ```bash
 echo 'Donne moi 10 noms de langages de programmation' | llm
 ```
@@ -60,6 +64,7 @@ cat myscript.php | llm 'explique le code'
 ---
 
 # Completion prompts
+<!-- _class: invert top amber -->
 ```bash
 llm -m gpt-3.5-turbo-instruct 'Pourquoi apprivoiser un écureuil sauvage:'
 ```
@@ -68,6 +73,7 @@ llm -m gpt-3.5-turbo-instruct 'Pourquoi apprivoiser un écureuil sauvage:'
 
 
 # System prompt
+<!-- _class: invert top teal -->
 
 ```bash
 llm 'SQL pour calculer les ventes totales par mois' \
@@ -86,7 +92,7 @@ git diff | llm -s 'Décris moi les modifications'
 ---
 
 # Templates
-
+<!-- _class: invert top slate -->
 ```bash
 # Write system template
 llm -s 'write php tests for this code' --save phptest
@@ -94,7 +100,6 @@ llm -s 'write php tests for this code' --save phptest
 # Use system template
 cat utils.php | llm -t phptest
 ```
-
 
 ---
 <!-- _class: invert flat pink center -->
