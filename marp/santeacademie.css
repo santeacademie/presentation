@@ -30,19 +30,42 @@ section.dark { background: linear-gradient(to top right, var(--dark-color) 40%, 
 section.flat.pink { background: var(--pink-color); }
 section.pink { background: linear-gradient(to top right, var(--dark-color) 40%, var(--pink-color) 190%); }
 section.pink h1, section.pink h2, section.pink h3, section.pink h4 { color: var(--pink-color); }
+section.flat.pink h1, section.flat.pink h2, section.flat.pink h3, section.flat.pink h4 { color: white; }
 
 section.flat.amber { background: var(--amber-color); }
 section.amber { background: linear-gradient(to top right, var(--dark-color) 40%, var(--amber-color) 190%); }
 section.amber h1, section.amber h2, section.amber h3, section.amber h4 { color: var(--amber-color); }
+section.flat.amber h1, section.flat.amber h2, section.flat.amber h3, section.flat.amber h4 { color: white; }
 
 section.flat.teal { background: var(--teal-color); }
 section.teal { background: linear-gradient(to top right, var(--dark-color) 40%, var(--teal-color) 190%); }
 section.teal h1, section.teal h2, section.teal h3, section.teal h4 { color: var(--teal-color); }
+section.flat.teal h1, section.flat.teal h2, section.flat.teal h3, section.flat.teal h4 { color: white; }
 
 section.flat.slate { background: var(--slate-color); }
 section.slate { background: linear-gradient(to top right, var(--dark-color) 40%, var(--slate-color) 190%); }
 section.slate h1, section.slate h2, section.slate h3, section.slate h4 { color: var(--slate-color); }
+section.flat.slate h1, section.flat.slate h2, section.flat.slate h3, section.flat.slate h4 { color: white; }
 
+section.center {
+  text-align: center;
+}
+
+section.flat blockquote p,
+  section.flat blockquote {
+  color: #EEE;
+  border-color: #EEE;
+}
+
+section.flat p,
+section.flat footer {
+  color: white;
+  border-color: white;
+}
+
+section.flat::after {
+  color: white;
+}
 
 section::after {
   color: var(--footer-color);

@@ -18,7 +18,7 @@ footer: '**LLM Like a boss**'
 
 ---
 # Install
-<!-- _class: amber -->
+<!-- _class: invert amber -->
 
 ```bash
 pip3 install llm # or brew install llm
@@ -26,12 +26,14 @@ pip3 install llm # or brew install llm
 
 ---
 # Configure
+<!-- _class: invert teal -->
 ```bash
 llm keys set openai
 ```
 
 ---
 # Global usage
+<!-- _class: invert slate -->
 ```bash
 llm 'Donne moi 10 noms de langages de programmation'
 ```
@@ -43,7 +45,7 @@ llm 'Donne moi 10 noms de langages de programmation' -m gpt4
 ```
 
 ---
-
+<!-- _class: invert -->
 ## Shell usage
 ```bash
 echo 'Donne moi 10 noms de langages de programmation' | llm
@@ -93,3 +95,12 @@ llm -s 'write php tests for this code' --save phptest
 cat utils.php | llm -t phptest
 ```
 
+
+---
+<!-- _class: invert flat pink center -->
+<!-- _footer: '' -->
+<!-- _paginate: 'skip' -->
+<style scoped>section{text-align:center;}</style>
+# Merci !
+
+![height:300px](https://i.imgur.com/CVAWdaB.gif)
