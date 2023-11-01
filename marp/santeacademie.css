@@ -29,23 +29,23 @@ section.dark { background: linear-gradient(to top right, var(--dark-color) 40%, 
 
 section.flat.pink { background: var(--pink-color); }
 section.pink { background: linear-gradient(to top right, var(--dark-color) 40%, var(--pink-color) 190%); }
-section.pink h1, section.pink h2, section.pink h3, section.pink h4 { color: var(--pink-color); }
-section.flat.pink h1, section.flat.pink h2, section.flat.pink h3, section.flat.pink h4 { color: white; }
+section.pink h1, section.pink h2, section.pink h3, section.pink h4, section.pink a { color: var(--pink-color); }
+section.flat.pink h1, section.flat.pink h2, section.flat.pink h3, section.flat.pink h4, section.flat.flat a { color: white; }
 
 section.flat.amber { background: var(--amber-color); }
 section.amber { background: linear-gradient(to top right, var(--dark-color) 40%, var(--amber-color) 190%); }
-section.amber h1, section.amber h2, section.amber h3, section.amber h4 { color: var(--amber-color); }
-section.flat.amber h1, section.flat.amber h2, section.flat.amber h3, section.flat.amber h4 { color: white; }
+section.amber h1, section.amber h2, section.amber h3, section.amber h4, section.amber a { color: var(--amber-color); }
+section.flat.amber h1, section.flat.amber h2, section.flat.amber h3, section.flat.amber h4, section.flat.amber a { color: white; }
 
 section.flat.teal { background: var(--teal-color); }
 section.teal { background: linear-gradient(to top right, var(--dark-color) 40%, var(--teal-color) 190%); }
-section.teal h1, section.teal h2, section.teal h3, section.teal h4 { color: var(--teal-color); }
-section.flat.teal h1, section.flat.teal h2, section.flat.teal h3, section.flat.teal h4 { color: white; }
+section.teal h1, section.teal h2, section.teal h3, section.teal h4, section.teal a { color: var(--teal-color); }
+section.flat.teal h1, section.flat.teal h2, section.flat.teal h3, section.flat.teal h4, section.flat.teal a { color: white; }
 
 section.flat.slate { background: var(--slate-color); }
 section.slate { background: linear-gradient(to top right, var(--dark-color) 40%, var(--slate-color) 190%); }
-section.slate h1, section.slate h2, section.slate h3, section.slate h4 { color: var(--slate-color); }
-section.flat.slate h1, section.flat.slate h2, section.flat.slate h3, section.flat.slate h4 { color: white; }
+section.slate h1, section.slate h2, section.slate h3, section.slate h4, section.slate a { color: var(--slate-color); }
+section.flat.slate h1, section.flat.slate h2, section.flat.slate h3, section.flat.slate h4, section.flat.slate a { color: white; }
 
 section.top {
   justify-content: flex-start;
@@ -122,7 +122,24 @@ pre {
   font-size: 0.5rem;
 }
 
+ul li code {
+  list-style: none;
+  margin-left: -58px;
+  font-size: 0.5rem;
+  background: #333;
+  padding: 1rem;
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+  padding: 16px;
+  border: 1px solid rgb(48, 54, 61);
+  display: block;
+  position: relative;
+}
+
 footer {
   color: var(--footer-color);
 }
 
+a {
+  color: var(--pink-color);
+}
