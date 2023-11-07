@@ -10,6 +10,7 @@ footer: '**LLM Like a boss**'
 <!-- _paginate: skip -->
 <!-- _footer: '' -->
 <!-- _class: invert top -->
+<!-- This is a "speaker note" -->
 
 ![bg right:33%](https://images.pexels.com/photos/3009205/pexels-photo-3009205.jpeg)
 
@@ -141,7 +142,7 @@ done < <(find "$input_dir" -type f -name "*$file_ext" -maxdepth $depth)
 # Idées
 <!-- _class: invert top teal -->
 
-* Nom de fonction explicite en placeholder => demander le code
+* Nom de fonction explicite => Demander d'écrire la fonction
 * Résoudre un bug de logique
 * Génération de documentation
 * Détecter les anti-patterns
