@@ -17,3 +17,14 @@
 - Des rendus performants avec useMemo
 
 ### Infra
+- Migration de l'infra et mise en production
+
+## Contribute:
+
+### Install
+1. Clone repository `git clone git@github.com:santeacademie/presentation.git`
+2. Install MARP `npm install @marp-team/marpit` (or yarn or pnpm)
+3. **(Optional)** In VSCode press `CMD+SHIFT+P` and type `shell command`. Then click on "Install code command in path".
+
+### Usage
+1. Pick a nice key name for your presentation then `./dev.sh my_awesome_presentation`
