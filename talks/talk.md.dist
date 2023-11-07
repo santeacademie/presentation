@@ -1,0 +1,28 @@
+---
+marp: true
+title: '__TITLE__'
+author: __AUTHOR__@santeacademie.com
+paginate: true
+theme: santeacademie
+header: '![height:30px](https://sante.ac/logo-white-label)'
+footer: '**__TITLE__**'
+---
+<!-- _paginate: skip -->
+<!-- _footer: '' -->
+<!-- _class: invert top -->
+
+![bg right:33%](https://images.pexels.com/photos/3009205/pexels-photo-3009205.jpeg)
+
+# __TITLE__
+
+##### "Caption 1"
+
+> Caption 2
+
+---
+<!-- _class: invert flat pink center -->
+<!-- _footer: '' -->
+<!-- _paginate: 'skip' -->
+<style scoped>section{text-align:center;}</style>
+
+![height:300px](https://i.imgur.com/CVAWdaB.gif)

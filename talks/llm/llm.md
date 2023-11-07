@@ -138,6 +138,17 @@ done < <(find "$input_dir" -type f -name "*$file_ext" -maxdepth $depth)
 
 ---
 
+# Idées
+<!-- _class: invert top teal -->
+
+* Nom de fonction explicite en placeholder => demander le code
+* Résoudre un bug de logique
+* Génération de documentation
+* Détecter les anti-patterns
+* ...
+
+---
+
 # Python API
 <!-- _class: invert top pink -->
 ```python
