@@ -1,7 +1,7 @@
 # Presentation materials
 
 ## Disponibles:
-- [LLM like a boss](https://tech.santeacademie.com/talks/llm/llm.html)
+- [LLM like a boss](https://tech.santeacademie.com/talks/llm/llm.html) **(09/11/23)** [@jr-k](https://github.com/jr-k)
 
 
 ## Idées:
