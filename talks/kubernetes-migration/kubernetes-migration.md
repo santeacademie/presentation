@@ -11,6 +11,8 @@ class: top teal
 ![bg right:33%](https://wallpapercave.com/wp/wp10034196.png)
 # Migration vers Kubernetes
 ---
+<style scoped>figure {margin-right: 30px !important}</style>
+![bg right:33% height:200px](https://i.pinimg.com/originals/10/7a/97/107a97ca5bd4a571edcebec54a66fc32.jpg)
 # Problèmes à mon arrivée
 - Environnement de dev non iso
 - Difficultés à scaler
@@ -34,11 +36,9 @@ class: top teal
 - AWS EFS (Elastic File System)
 - ArgoCD
 ---
-<!-- _class: teal invert center -->
-![height:200px](https://res.cloudinary.com/daily-now/image/upload/f_auto,q_auto/v1/posts/0ce6c20931116356d81d8f6876b660ab)
-
+<style scoped>figure {margin-right: 30px !important}</style>
+![bg right:33% height:200px](https://res.cloudinary.com/daily-now/image/upload/f_auto,q_auto/v1/posts/0ce6c20931116356d81d8f6876b660ab)
 # Kubernetes, késako ?
-
 * Orchestrateur de conteneurs
 * Scalable
 * Cool
