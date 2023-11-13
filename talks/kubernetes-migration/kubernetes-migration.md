@@ -25,16 +25,18 @@ class: top teal
 - Création de pipelines CI/CD
 ---
 # Ce qui change pour vous
+<!-- _class: invert top amber -->
 - Vous devenez maître des mises en production
 - Vous avez la main sur l'environnement de vos applications (cronjobs, secrets, etc)
 ---
 # Services utilisés
-- Terraform (Infrastructure as Code)
-- AWS EKS (Kubernetes managé par AWS)
-- AWS DynamoDB (DB clé/valeur utilisés pour les sessions)
-- Datadog
-- AWS EFS (Elastic File System)
-- ArgoCD
+<!-- _class: invert top teal -->
+* Terraform (Infrastructure as Code)
+* AWS EKS (Kubernetes managé par AWS)
+* AWS DynamoDB (DB clé/valeur utilisés pour les sessions)
+* Datadog
+* AWS EFS (Elastic File System)
+* ArgoCD
 ---
 <style scoped>figure {margin-right: 30px !important}</style>
 ![bg right:33% height:200px](https://res.cloudinary.com/daily-now/image/upload/f_auto,q_auto/v1/posts/0ce6c20931116356d81d8f6876b660ab)
