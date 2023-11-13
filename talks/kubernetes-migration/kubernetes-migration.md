@@ -12,7 +12,7 @@ class: top
 ---
 # Problèmes à mon arrivée
 - Environnement de dev non iso
-- Difficultés à scaller
+- Difficultés à scaler
 - Mise en production manuel
 ---
 # Travail accompli
@@ -35,7 +35,16 @@ class: top
 ---
 # Kubernetes, késako ?
 - Orchestrateur de conteneurs
-- Scallable
+- Scalable
+---
+# Documentations
+- [🏗️ Mise en production](https://www.notion.so/santeacademie/Mise-en-production-46c62108a5dd4b09a51671b99413af93)
+- [⏰ Ajout de tâche crons](https://www.notion.so/santeacademie/Mise-en-production-46c62108a5dd4b09a51671b99413af93)
+- [🤐 Secrets](https://www.notion.so/santeacademie/Secrets-fb77ad51dc4d47dd9d94a1cd57f073c0)
+- Kubernetes (plus technique)
+  - [🐙 Argo CD](https://www.notion.so/santeacademie/Argo-CD-0000c8ba96364596b38e8162375a14c1)
+  - [🤐 Namespaces](https://www.notion.so/santeacademie/Namespaces-1ae35cc9fe124a6f91b8cbe67e619c03)
+
 ---
 # Démo: mise en production
 [Documentation notion](https://www.notion.so/santeacademie/Mise-en-production-46c62108a5dd4b09a51671b99413af93?pvs=4)
