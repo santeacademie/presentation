@@ -21,12 +21,19 @@ footer: '**LLM Like a boss**'
 > Daoui
 
 ---
+<!-- 
+- Développeur Britanniqu
+- Créateur de Django e
+- Directeur architecte chez EventBrite
+-->
 
 # LLM
 > @[Simon Willison](https://simonwillison.net)
 - https://github.com/simonw/llm
 - 1.5k ⭐️
 - version 0.11 (Sep 19)
+
+![bg right:33%](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Simon_Willison_%282929211382%29_%28cropped%29.jpg/440px-Simon_Willison_%282929211382%29_%28cropped%29.jpg)
 
 ---
 # Install
@@ -48,7 +55,7 @@ llm keys set openai
 # Global usage
 <!-- _class: invert top slate -->
 
-* `bash llm 'Donne moi 10 noms de langages de programmation'`
+* `llm 'Donne moi 10 noms de langages de programmation'`
 
 * `llm 'Donne moi 10 noms de langages de programmation' --no-stream`
 

@@ -23,7 +23,7 @@
 
 ### Install
 1. Clone repository `git clone git@github.com:santeacademie/presentation.git`
-2. Install MARP `npm install @marp-team/marpit` (or yarn or pnpm)
+2. Install MARP `npm install -g @marp-team/marp-cli` (or yarn or pnpm)
 3. **(Optional)** In VSCode press `CMD+SHIFT+P` and type `shell command`. Then click on "Install code command in path".
 
 ### Usage
