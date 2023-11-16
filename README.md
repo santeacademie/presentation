@@ -12,7 +12,7 @@
 
 ### Back
 - Les énumérations
-- Les migrations Symfony
+- Les migrations doctrine
 
 ### Front
 - Des rendus performants avec useMemo
