@@ -22,52 +22,59 @@ footer: '**🏊‍♂️ Swimm**'
 
 ---
 
-# Swimm intro
+# Swimm
 
+- Permet de rédiger de la documentation
+- L'intègre à une PR
+- Lie la doc à des snippets de code
+- Rends automatique sa revue
+- Préviens les abonnés par email
 
 ---
 
 # Type de documentation
 
+<!-- Swimm agira sur la partie technique mais -->
+<!-- Swimm peut s'assurer que le readme reste à jour -->
+<!-- Swimm peut s'assurer que le commentaire reste à jour -->
+* Commentaires dans le code (IDE)
+* Documentation de démarrage (Readme)
+* Documentation d'api (Openapi)
+* Documentation fonctionnelle (Notion)
+* Documentation d'architecture
+* Documentation technique
+
 ---
 
 # Pourquoi documenter ?
 
-* Dev
+* Améliorer la **maintenabilité** et la **clarté** <!-- - Celui qui écrit n'est pas forcément celui qui écrira à l'avenir (offrir une seconde lecture du code) -->
+* Faciliter la **collaboration** <!-- - onboarding, debug, etc. -->
+* Eviter les **bottelnecks de connaissances** <!-- - untel est malade donc c'est la merde -->
 
 ---
 
-# Comment SWIMM Fonctionne
+# Comment SWIMM fonctionne
 
-Processus de documentation avec SWIMM
-Intégration dans les flux de travail existants
-Démonstration interactive
-
-
-VScode + Jetbrain
-Intégré à Github
+1. Rédaction de la doc sur votre feature branch (Swimm ou IDE)
+2. Création de la PR
+3. Le bot Swimm détectera des *out-of-sync*
+4. On valide la PR
 
 ---
 
 # Démo
 
 
-
 ---
 
-# Interactivité et Collaboration
+# Process: doc-review
 
-Outils de collaboration intégrés dans SWIMM
-Favoriser le partage de connaissances dans l'équipe
+> Objectif: intégrer la documentation au coeur du processus de livraison
 
----
-
-# Revue de doc
-
-## Objectif: intégrer la documentation au coeur du processus de livraison
-
-- Doc fonctionnelle
-- Doc technique
+- Quoi: Idéalement, prévoir sa bonne tenue et son contenu lors des groomings
+- Quand: Revue de doc intégrée à la revue technique
+- Qui: Ecrite par le dev, validé par les reviewers
 
 ---
 
