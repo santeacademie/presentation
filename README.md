@@ -2,6 +2,7 @@
 
 ## Disponibles:
 - [LLM like a boss](https://tech.santeacademie.com/talks/llm/llm.html) **(09/11/23)** [@jr-k](https://github.com/jr-k)
+- [Migration vers Kubernetes](https://tech.santeacademie.com/talks/kubernetes-migration/kubernetes-migration.html) **(21/11/23)** [@Julian-Louis](https://github.com/Julian-Louis)
 
 
 ## Idées:
