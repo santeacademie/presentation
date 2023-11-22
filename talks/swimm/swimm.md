@@ -21,6 +21,11 @@ footer: '**🏊‍♂️ Swimm**'
 > Merci ChatGPT pour cette problématique à portée humoristique
 
 ---
+<!-- _class: invert center amber flat -->
+
+![height:500px](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTMwOHJzczk4N2UxeDQ5YmcwM3NyZ3hkanprYzBuOGt5MXo2bTJwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jpFHVV9v1sJMYUMJmx/giphy.gif)
+
+---
 
 # Swimm
 
