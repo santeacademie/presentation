@@ -24,6 +24,9 @@
 ### Infra
 - Migration de l'infra et mise en production
 
+### Tools
+- git leaks
+
 ## Contribute:
 
 ### Install
