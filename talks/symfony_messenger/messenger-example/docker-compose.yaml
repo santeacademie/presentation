@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev-back
+      ssh:
+        - default
+    image: messenger-example:latest-dev-back
+    volumes:
+      - .:/var/www/html:cached
+      # If you need to edit the vendor/ directory, comment the line below,
+      # your performance will be degraded but the vendor will be mounted on the host
+      - /var/www/html/vendor
+  nginx:
+    image: nginx
+    volumes:
+      - ./public:/var/www/html/public:cached
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf:cached
+    depends_on:
+      - app
+    ports:
+      - "80"
+  redis:
+    image: redis:7-alpine
