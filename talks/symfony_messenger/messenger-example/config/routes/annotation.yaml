@@ -1,0 +1,5 @@
+controllers:
+  resource: ../../src/Controller/
+  name_prefix: 'app_'
+  prefix: ''
+  type: annotation
