@@ -55,7 +55,8 @@ develop_talk() {
   fi
 
   touch "$PRES_HTML"
-  marp "$PRES_MD" -w --theme "$MARP_THEME" & sleep 2 && chrome "$PRES_HTML" && sleep 1 && code "$PRES_MD"
+  # open works only on mac
+  marp "$PRES_MD" -w --theme "$MARP_THEME" & sleep 2 && open "$PRES_HTML" && sleep 1 && code "$PRES_MD"
 }
 
 # Process options
