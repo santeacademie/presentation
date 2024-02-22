@@ -1,6 +1,6 @@
 ---
 marp: true
-title: 'Faire parler du derrière et du devant avec confiance'
+title: 'Un langage pour les gouverner tous'
 author: julien@santeacademie.com
 paginate: true
 theme: santeacademie
@@ -14,16 +14,21 @@ class: top teal
 <style scoped>figure {margin-right: 30px !important}</style>
 
 # Qu'est-ce que le WebAssembly ?
-- Un format de code binaire pour des modules exécutables dans le navigateur web
+- Un format de code binaire pour des modules exécutables dans le navigateur web (mépakeu)
 - Permettre l'exécution de code à des performances proches du natif
 - Conçu pour fonctionner en harmonie avec JavaScript, complétant plutôt que remplaçant JavaScript
 ---
 
 # Pourquoi WebAssembly ?
 - Performance: Exécution plus rapide que JavaScript pour certaines tâches
+- Optimisé: Le code est un binaire et non de l'anglais
 - Sécurité: Exécution dans un sandbox pour une sécurité des plus mamma sita
-- Portabilité: Le code compilé peut s'exécuter sur n'importe quel système d'exploitation ou appareil avec un navigateur compatible
-- Langage: Permet d'utiliser des langages autres que JavaScript, comme C, C++, Rust
+- Langages: Permet d'utiliser des langages autres que JavaScript, comme C, C++, Rust, Go...
+- Portabilité: Le code compilé peut s'exécuter sur (presque) n'importe quel système d'exploitation ou appareil avec un navigateur compatible
+---
+
+# Pourquoi WebAssembly ?
+- "If WASM+WASI existed in 2008, we wouldn't have needed to created Docker" - Solomon Hykes
 ---
 
 # Cas d'utilisation de WebAssembly
@@ -48,13 +53,12 @@ class: top teal
 # Limitations
 - Interopérabilité avec JavaScript: Coûts de performance potentiels lors des interactions entre WASM et JS
 - Complexité de débogage: Outils de débogage moins matures par rapport à JavaScript
-- Taille du fichier: Les modules WASM peuvent être plus volumineux que le code JavaScript équivalent
 
 ---
 
 # L'avenir de WebAssembly
-- Évolution des standards: Nouvelles propositions pour étendre les capacités de WASM (ex. : accès direct au DOM)
-- Adoption croissante: Utilisation dans des domaines autres que le web, comme le cloud computing et les applications mobiles
+- Évolution des standards: Nouvelles propositions pour étendre les capacités de WASM (ex. : accès direct au DOM, multithread)
+- Adoption croissante: Utilisation dans des domaines autres que le web, comme le cloud computing et les applications mobiles ?
 - Communauté et support: Croissance de la communauté des développeurs et amélioration continue des outils de développement
 
 ---
