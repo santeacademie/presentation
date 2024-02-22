@@ -7,7 +7,7 @@
 - [Faire parler du derrière et du devant avec confiance](https://tech.santeacademie.com/talks/trpc/trpc.html) **(23/11/23)** [@Julienblc](https://github.com/Julienblc)
 - [📨 Composant Messenger de Symfony](https://tech.santeacademie.com/talks/symfony_messenger/symfony_messenger.html) **(21/12/23)** [@EnThib](https://github.com/EnThib)
 - [Les migrations avec Doctrine](https://tech.santeacademie.com/talks/doctrine-migration/doctrine-migration.html) **(07/12/23)** [@assanie](https://github.com/assanie)
-- [Wa, le turfu du js](https://tech.santeacademie.com/talks/webassembly/webassembly.html) **(23/11/23)** [@Julienblc](https://github.com/Julienblc)
+- [Wa, le turfu du js](https://tech.santeacademie.com/talks/webassembly/webassembly.html) **(22/02/24)** [@Julienblc](https://github.com/Julienblc)
 
 
 ## Idées:
