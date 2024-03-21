@@ -9,6 +9,7 @@
 - [Les migrations avec Doctrine](https://tech.santeacademie.com/talks/doctrine-migration/doctrine-migration.html) **(07/12/23)** [@assanie](https://github.com/assanie)
 - [Wa, le turfu du js](https://tech.santeacademie.com/talks/webassembly/webassembly.html) **(22/02/24)** [@Julienblc](https://github.com/Julienblc)
 - [Présentation Datadog](https://tech.santeacademie.com/talks/datadog/datadog.html) **(07/03/24)** [@Julian-Louis](https://github.com/Julian-Louis)
+- [Présentation Projets front autour du design](https://tech.santeacademie.com/talks/front-design-projects/front-design-projects.html) **(21/03/24)** [@HugoFayolle](https://github.com/HugoFayolle)
 
 
 ## Idées:
