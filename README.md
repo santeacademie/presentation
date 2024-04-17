@@ -10,6 +10,7 @@
 - [Wa, le turfu du js](https://tech.santeacademie.com/talks/webassembly/webassembly.html) **(22/02/24)** [@Julienblc](https://github.com/Julienblc)
 - [Présentation Datadog](https://tech.santeacademie.com/talks/datadog/datadog.html) **(07/03/24)** [@Julian-Louis](https://github.com/Julian-Louis)
 - [Présentation Projets front autour du design](https://tech.santeacademie.com/talks/front-design-projects/front-design-projects.html) **(21/03/24)** [@HugoFayolle](https://github.com/HugoFayolle)
+- [Composant Symfony Workflow](https://tech.santeacademie.com/talks/symfony-workflow/symfony-workflow.html) **(31/12/23)** [@lucbu](https://github.com/lucbu)
 
 
 ## Idées:
