@@ -39,3 +39,17 @@ class: top teal
 
 --- 
 # Demo
+
+Autocomplete ![height:30px](Autocomplete.png)
+Live Component ![height:30px](Livecomponent.png)
+UX-React ![height:30px](React.png)
+
+---
+# Surprise
+
+## Asset Mapper
+Webpack is dead
+
+---
+# Conclusion
+Php c'est pas encore la panacée
