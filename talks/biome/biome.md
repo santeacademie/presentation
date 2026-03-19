@@ -84,6 +84,8 @@ Dans `.vscode/settings.json`
 
 ## Conclusion
 
+- pourquoi biome au final ?
+  - relou de gérer une dizaine de dép eslint-config-🍑
 - oxc ?
   - moins de traction
   - focus JS/TS (pas de CSS, Astro, Svelte, Vue, GraphQL)
