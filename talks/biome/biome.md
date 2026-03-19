@@ -67,6 +67,8 @@ Plus performant (mais c'est pas une compétition)
 }
 ```
 
+---
+
 ## Setup extension IDE
 
 Dans `.vscode/settings.json`
