@@ -13,6 +13,7 @@
 - [Présentation Projets front autour du design](https://tech.santeacademie.com/talks/front-design-projects/front-design-projects.html) **(21/03/24)** [@HugoFayolle](https://github.com/HugoFayolle)
 - [Présentation Symfony Ux](https://tech.santeacademie.com/talks/symfony-ux/symfony-ux.html) **(17/04/24)** [@assanie](https://github.com/assanie) [@lucbu](https://github.com/lucbu)
 - [BiomeJS](https://tech.santeacademie.com/talks/biome/biome.html) **(19/03/26)** [@notAro14](https://github.com/notAro14)
+- [The Vibecoder 🥀](https://tech.santeacademie.com/talks/the-vibecoder/the-vibecoder.html) **(14/10/26)** [@notAro14](https://github.com/notAro14)
 
 
 ## Idées:
