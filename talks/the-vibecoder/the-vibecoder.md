@@ -1,11 +1,11 @@
 ---
 marp: true
-title: 'The Vibecoder 🥀'
+title: 'The Vibecoder'
 author: aro@santeacademie.com
 paginate: true
 theme: santeacademie
 header: '![height:30px](https://sante.ac/logo-white-label)'
-footer: '**The Vibecoder 🥀**'
+footer: '**The Vibecoder**'
 ---
 <style>
 section :not(pre) > code,
@@ -31,43 +31,47 @@ section pre code {
   color: inherit;
   background: none;
 }
+section.flat.pink h3 {
+  font-size: 0.8em;
+  font-weight: normal;
+  font-style: italic;
+  opacity: 0.85;
+}
 </style>
 <!-- _paginate: skip -->
 <!-- _footer: '' -->
 <!-- _class: invert top -->
 
-![bg right:33%](cover-rose.jpeg)
+![bg right:40% contain](assets/cover-approve-ai.png)
 
-# The Vibecoder 🥀
+# The Vibecoder
 
 ---
 
 ## Sommaire
 
-1. Le vibe coding YOLO
-2. Mon workflow
-3. Piloter l'agent
-4. Les feedbacks
+1. Le Vibe Coding
+2. Le Workflow
+3. L'Agent
+4. Le Feedback
 5. Conclusion
 
 ---
 
 ## Ce talk n'est pas…
 
-- ~~Un pitch pour vous convertir~~
-- ~~Une software factory multi-agents en autopilote~~
-- ~~La dernière méthode hype~~ (Ralph)
-- ~~Une recette qui marche pour tout le monde~~
+- pour convaincre
+- une software factory
+- Ralph
+- une méthode universelle
 
 ---
 
 ## …c'est plutôt
 
-- Mon REX, ma façon de bosser
-- Du **software craft**, version agents LLM
-  clean code | clean archi | feedback rapide | tests auto
-- Une méthode taillée à mon style de dev
-- Rien de figé, tout s'améliore à tâtons 🧪
+- un rex 🦖
+- en chantier constant
+- hyper personnalisation
 
 ---
 <!-- _class: flat pink center -->
@@ -76,36 +80,30 @@ section pre code {
 
 # 1
 
-## Le vibe coding YOLO
+## Le Vibe Coding
 
----
-<!-- _class: center -->
+### Vibecoder 101
 
-## D'où on vient
-
-![height:450px](vibecoders-be-like.jpeg)
+![height:300px](assets/vibe-coding-will-go.png)
 
 ---
 
-## Mon process d'avant
+## Grosso modo
 
-1. Une tâche à faire
-2. Claude Code dans VS Code
-3. J'ouvre le fichier qui me semble concerné
-4. Mode plan + prompt
-5. Je relis le plan… ✅ validé
-6. Je teste l'app à la main
-
-**Même avec un plan… c'était du YOLO**
+- tâche Asana
+- repérage code vite fait
+- prompt + plan
+- vérification (review, check UI, etc.)
 
 ---
 
-## Ce qui coince
+## Les ténèbres
 
-- Le plan ? On finit par s'en foutre 🙈
-- Qualité aléatoire : modèle | contexte trouvé | effort
-- Contrôle de l'output inconstant : là où un dev fait la différence
-- Des plans sans mémoire, sans historique
+- osef du plan parfois
+- qualité aléatoire
+- vérification inconsistante
+- pas de mémoire entre plans
+- personnalisation splittée entre conversations et fichiers Claude
 
 ---
 <!-- _class: flat pink center -->
@@ -114,107 +112,86 @@ section pre code {
 
 # 2
 
-## Mon workflow
+## Le Workflow
 
----
+### Trust me I'm an engineer
 
-## Le déclic
-
-> **How I manage my agents** · Fatih Arslan
-> [arslan.io](https://arslan.io/2026/09/11/how-i-manage-my-agents/)
-
-1. Trouvé par hasard en veille
-2. Méfiant 🤨, lu en diagonale
-3. Tout en bas : un prompt à copier-coller
-4. Tester ne coûte rien, alors je teste
-5. Adopté petit à petit, à ma sauce
-
----
-
-## Le prompt, en bref
-
-`git log` → mes habitudes (`HABITS.md`) → skills `plan-*` → le workflow
-
-**Le but** : tout garder en Markdown, selon *mes* conventions
-
-- le travail → un fichier par plan
-- ce qui se dit en conversation → écrit dans le plan
-- le projet → `PROJECT.md`
+![height:240px](assets/scientist-myself.png)
 
 ---
 
 <style scoped>
-blockquote { color: white; border-left-color: var(--pink-color); }
+p { margin-top: 60px; font-size: 1.2em; }
 </style>
 
-## Extrait de `HABITS.md`
+## Source ?
 
-*Mistakes corrected more than once*
+*How I manage my agents* · [Fatih Arslan](https://arslan.io/2026/09/11/how-i-manage-my-agents/)
+
+---
+
+<style scoped>
+p:nth-of-type(1) { margin-top: 60px; font-size: 1.1em; }
+</style>
+
+## Ce que ça fait
+
+commits | PR | tickets → skills `plan-*`
+
+---
+
+<style scoped>
+blockquote { color: white; border-left-color: var(--pink-color); margin-top: 60px; font-size: 1.1em; }
+</style>
+
+## Extrait de mon fichier HABITS
 
 > « Nested ternaries: corrected twice in one day. »
 
-→ l'agent le relit à chaque session, je ne corrige plus
-
 ---
 
-## Le dépôt de plans
+<style scoped>
+pre { font-size: 0.9em; }
+</style>
 
-Un repo git par projet, à côté du code, ex. `roleplay-plans`
+## Kanban 3000.0
 
 ```
-roleplay-plans/
-├── drafts/   idées, questions ouvertes
-├── next/     tout est décidé, prêt à lancer
-├── open/     un agent bosse dessus
-└── done/     tout est mergé
+plan-add         →  drafts/
+grill-with-docs
+plan-write       →  next/
+plan-dispatch    →  open/
+aro-review
+plan-sync        →  done/
 ```
 
 ---
 
 <style scoped>
-pre { font-size: 0.85em; }
-p { text-align: center; margin-top: 30px; font-size: 0.6em; color: var(--slate-color); }
+p { margin-top: 60px; font-size: 1.1em; }
 </style>
 
-## La vie d'un plan
+## Ma, look at my fork
 
-```
-plan-add         →  drafts/
-grill-with-docs     on lève le flou
-plan-write       →  next/
-plan-dispatch    →  open/
-aro-review          code review systématique
-plan-sync        →  done/
-```
-
-`plan-init` au setup | `plan-status` à tout moment | `plan-retro` tous les 15 jours | `plan-spec` la convention
-
-Skills adoptés de [mattpocock/skills](https://github.com/mattpocock/skills) : `grill-with-docs`, `domain-modeling`…
+`grill-with-docs` | `aro-review` | `aro-code-style` | `aro-testing`
 
 ---
 
-## Ma personnalisation
+![bg right:50% contain](assets/cat-thumbs-up.png)
 
-- `grill-with-docs` avant `plan-write` : lever le flou
-- `aro-review` à la fin de chaque dispatch
-- `aro-code-style` et `aro-testing` : mes préférences, chargées par les `plan-*`
-
----
-
-## 👍 Ce qui est cool
-
-- Des plans autonomes, qui contiennent tout pour mener la tâche
-- Plus de flou, ni technique ni produit
-- Plans indépendants → parallélisation (`git worktree`)
+- Plans autonomes
+- Zéro flou
+- Parallélisable
+- Historique
 
 ---
 
-## ⚠️ À surveiller
+![bg right:50% contain](assets/hand-on-shoulder.png)
 
-- Surdimensionné pour un petit bugfix
-- Un plan bien écrit ≠ du code de qualité : gare à l'illusion de contrôle
-- Le bottleneck, c'est moi : review et context switching
-- Des skills à faire évoluer et à maintenir
+- Trop lourd pour un bugfix
+- Illusion de contrôle
+- Le bottleneck, c'est moi
+- Des skills à maintenir
 
 ---
 <!-- _class: flat pink center -->
@@ -223,83 +200,87 @@ Skills adoptés de [mattpocock/skills](https://github.com/mattpocock/skills) : `
 
 # 3
 
-## Piloter l'agent
+## L'Agent
+
+### C'est qui le patron ? C'est moi
+
+![height:240px](assets/black-cat-stare.png)
 
 ---
 
-## Le plus dur : piloter finement
+## L'IA en fait trop ou pas assez
 
-L'agent en fait trop… ou pas assez
-
-- **Pas assez** → implémentation naïve
-- **Pas assez** → des UI génériques, pas craftées
-- **Trop** → programmation ultra défensive
-- **Trop** → des tests qui ne servent à rien
+- **Pas assez** → naïf, générique
+- **Trop** → défensif, tests inutiles
 
 ---
 
 <style scoped>
-blockquote { color: white; border-left-color: var(--pink-color); }
+p:nth-of-type(1) { margin-top: 60px; }
+p:nth-of-type(2) { margin-top: 40px; font-size: 1.1em; }
 </style>
 
-## Distiller ses goûts
+## Transmettre son goût
 
-Sans consignes, le modèle livre la moyenne, misconceptions comprises
+Les connaissances du modèle = la moyenne
 
-> Mes préférences → des skills, et des docs si besoin
+**→ injecter ses préférences dans les skills**
+
+![height:240px](assets/signature-look.png)
 
 ---
 
 <style scoped>
-blockquote { color: white; border-left-color: var(--pink-color); }
+blockquote { color: white; border-left-color: var(--pink-color); margin-top: 60px; font-size: 1.1em; }
+section > p { color: var(--slate-color); }
+section > p:last-of-type { margin-top: 50px; }
 </style>
 
-## Exemple : le TDD
+## TDD
 
-Défini dans `aro-testing`
+> « Tests pin business rules… not a coverage target. »
 
-- ce qu'est *pour moi* un test unitaire
-- red → green → **refactor**
-- le design qui émerge des tests
+`aro-testing`
 
-> « Tests pin business rules. They are a design tool driven by the spec, not a coverage target. »
+**Red → Green → Refactor : étonnamment efficace sur un plan exécuté pas à pas** (voir slide sur les feedbacks)
 
 ---
 
 <style scoped>
-blockquote { color: white; border-left-color: var(--pink-color); }
+blockquote { color: white; border-left-color: var(--pink-color); margin-top: 60px; font-size: 1.1em; }
+section > p { color: var(--slate-color); }
 </style>
 
-## Exemple : let it crash
+## Let it crash
 
-Défini dans `aro-code-style`
+> « Accept that the application will meet unexpected errors… »
 
-> « Accept that the application will meet unexpected errors, and design it to recover rather than trying to prevent every bug with defensive checks. »
+`aro-code-style`
 
 ---
 
-## ⚠️ Le piège : tout sur-spécifier
+## Le piège
 
-- Parfois, une phrase ou le bon mot-clé suffit
-- Parfois, il faut être explicite
-- Pas de règle : il faut beaucoup tester 🧪
+- Parfois un mot-clé suffit
+- Parfois non
+- Il faut expérimenter ™️
 
 ---
 
 <style scoped>
-p { text-align: center; }
-p:nth-of-type(1) { margin-top: 50px; font-size: 1.1em; }
-p:nth-of-type(2) { margin-top: 40px; }
-p:nth-of-type(3) { margin-top: 30px; color: var(--slate-color); }
+p:nth-of-type(1) { display: flex; align-items: center; gap: 24px; margin-top: 60px; font-size: 1.1em; }
+p:nth-of-type(1)::before, p:nth-of-type(1)::after { content: ""; flex: 1; border-top: 3px solid var(--pink-color); }
+p:nth-of-type(1)::before { order: 2; }
+p:nth-of-type(1)::after { order: 4; }
+p:nth-of-type(1) strong { color: white; }
+p:nth-of-type(1) strong:first-child { order: 1; }
+p:nth-of-type(1) em { order: 3; font-style: normal; font-size: 1.4em; }
+p:nth-of-type(1) strong:last-child { order: 5; }
 </style>
 
 ## Reprendre le contrôle
 
-YOLO ←—— 🎯 ——→ micro-management
-
-Le contrôle sur la façon de construire le produit, pas sur chaque ligne
-
-Trop micro-manager l'IA, c'est perdre son intérêt
+**YOLO** *🎯* **micro-management**
 
 ---
 <!-- _class: flat pink center -->
@@ -308,65 +289,45 @@ Trop micro-manager l'IA, c'est perdre son intérêt
 
 # 4
 
-## Les feedbacks
+## Le Feedback
 
----
+### ~~Attention~~ Feedback is all you need
 
-## Ma take : blinder le feedback
-
-Des méthodes éprouvées, d'avant les LLM… devenues faciles à mettre en place
-
-1. **Statique** : lint, format, typecheck, tests
-2. **Validation** : Zod partout, l'OpenAPI en découle
-3. **API** : Bruno, lancé par l'agent
-4. **Manuel** : checklists comme les pilotes d'avion ✈️, smoke test du parcours principal
+![height:260px](assets/constructive-feedback.png)
 
 ---
 
 <style scoped>
-p { text-align: center; }
-p:nth-of-type(1) { margin-top: 60px; font-size: 1.1em; }
-p:nth-of-type(2) { margin-top: 50px; font-size: 1.2em; }
+p { margin-top: 60px; font-size: 1.1em; }
 </style>
+
+## Blinder les checks auto
+
+Typecheck, Lint, Format, Tests unitaires, Tests d'intégration
+
+---
 
 ## Vérifier ne doit pas être chiant
 
-Je ne relis plus ligne à ligne → je vérifie le résultat, vite
+- API documentée et testable en un clic (Bruno, OpenAPI)
+- Données invalides rejetées tout de suite (Zod)
+- Playground (ex : preview Roleplay dans l'admin)
+- Checklist manuelle (vérification UI, smoke test, etc.)
 
-**Si vérifier est pénible, on ne vérifie plus**
-
----
-
-<style scoped>
-p { text-align: center; }
-p:nth-of-type(1) { margin-top: 20px; }
-p:nth-of-type(2) { margin-top: 50px; color: var(--slate-color); }
-p:nth-of-type(3), p:nth-of-type(4) { margin-top: 20px; font-size: 1.1em; }
-</style>
-
-## Le playground
-
-Un raccourci pour tester l'app sans se taper tout le flow
-
-Avant : `ContentStudio` → `ContentPlayer web` → enfin le roleplay 😮‍💨
-
-UI : `admin` → `preview chat` ⚡
-
-API : `Bruno` → requête prête, auth incluse ⚡
+**→ l'IA lance la plupart de ces vérifs et corrige dans la foulée, même certaines manuelles**
 
 ---
 
 <style scoped>
-blockquote { color: white; border-left-color: var(--pink-color); }
+blockquote { color: white; border-left-color: var(--pink-color); margin-top: 60px; font-size: 1.1em; }
+section > p { color: var(--slate-color); }
 </style>
 
-## Une idée qui circule
-
-- **Storybook** : un « frontend workshop », l'UI en isolation
-- **Home Assistant** : un *dev playground*, en debug, via un raccourci
-- **Amp** · *Feedback Loopable* :
+## Citation dropping
 
 > « Agents are most powerful when they can validate their work against reality. »
+
+[Amp · Feedback Loopable](https://ampcode.com/notes/feedback-loopable)
 
 ---
 <!-- _class: flat pink center -->
@@ -377,61 +338,74 @@ blockquote { color: white; border-left-color: var(--pink-color); }
 
 ## Conclusion
 
----
-
-## Ce qui coince → la réponse
-
-- Le plan, on s'en fout → un plan versionné, qui sert
-- Qualité aléatoire → mes goûts dans des skills
-- Contrôle inconstant → des feedbacks blindés
-- Pas de mémoire → `HABITS.md` + dépôt de plans
+### On vit dans une saucisse
 
 ---
 
-## On refait de l'ingénierie
+## Avant Après
 
-- Le code devient une commodité
-- Le moment de blinder les fondamentaux
-- L'agent m'accompagne… ou je l'accompagne
+- Plan jetable → Plan versionné
+- Qualité aléatoire → Préférences injectées
+- Vérification inconsistante → Feedback blindé
+
+![height:200px](assets/same.gif)
 
 ---
 
-<style scoped>
-p { text-align: center; margin-top: 50px; }
-p code { font-size: 1.2em; }
-</style>
+## Apprendre en pratiquant
 
-## Où je mets mon énergie
+- Le code ne coûte plus rien
+- **→ tester une archi hexagonale, une idée de design… en une après-midi**
 
-`software craft` | `archi` | `accessibilité` | `design`
-
-… et tout simplement développer mon **goût**
+![height:220px](assets/cat-glasses.gif)
 
 ---
 
 <style scoped>
-blockquote { color: white; border-left-color: var(--pink-color); font-size: 1.2em; }
+p:nth-of-type(1) { margin-top: 60px; }
+p:nth-of-type(2) { margin-top: 40px; font-size: 1.2em; }
 </style>
 
-## Pas que moi
+## Refocus sur les fondamentaux
 
-> « Simply shipping a product that works is no longer enough. »
+craft | archi | a11y | design
 
-Emil Kowalski · [*Developing Taste*](https://emilkowal.ski/ui/developing-taste)
+→ [développer son **goût**](https://emilkowal.ski/ui/developing-taste)
+
+![height:220px](assets/cat-military-strategy.gif)
 
 ---
 
-## À vous de jouer
+## Votre devoir à la maison
 
-1. Lancer le prompt d'Arslan sur un de vos repos
-2. Versionner ce qu'il génère : skills et dépôt de plans
-3. Un playground ou une checklist de smoke test sur votre projet
+- Tester le [prompt](https://arslan.io/2026/09/11/how-i-manage-my-agents/) de l'article
+- Versionner les skills générés
+- `plan-init` un projet et versionner le dépôt de plans
+- Ajouter votre premier plan avec `plan-add`
+- Versionner les skills les plus utilisés
+- Créer des skills customs pour la review, le style de code, les pratiques de test
+
+---
+
+<style scoped>
+p { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 24px 56px; margin-top: 40px; }
+p code { background: none; padding: 0; font-family: inherit; }
+p code:nth-of-type(1) { font-size: 1.2em; color: var(--teal-color); transform: rotate(-4deg); }
+p code:nth-of-type(2) { font-size: 1.3em; color: white; }
+p code:nth-of-type(3) { font-size: 3em; color: var(--pink-color); }
+p code:nth-of-type(4) { font-size: 1.2em; color: var(--teal-color); }
+p code:nth-of-type(5) { font-size: 1.1em; color: var(--amber-color); transform: rotate(5deg); }
+</style>
+
+## En bref
+
+`clarify` `custom skills` `feedback` `versioning` `experiment`
 
 ---
 <!-- _class: flat pink center -->
 <!-- _paginate: skip -->
 <!-- _footer: '' -->
 
-# Merci 🥀
+# Merci
 
-## Questions ?
+![height:360px](assets/merci-rose.png)
